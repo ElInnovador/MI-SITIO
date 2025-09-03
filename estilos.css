@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#contenedor-imagen {
+  margin-top: 30px;
+  display: none; /* Oculto al inicio */
+}
+
+img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
