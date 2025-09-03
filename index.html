@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Imagen que aparece</title>
-  <link rel="stylesheet" href="estilos.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artistas</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="script.js" defer></script>
 </head>
 <body>
+<header>
+<h1>Bienvenidos a "Artistas"</h1>
+<p id="fecha"></p>
+</header>
 
-  <h1>Haz clic para ver a Rulo 🐶</h1>
 
-  <button onclick="mostrarImagen()">Mostrar imagen</button>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+<a href="#agenda">Agenda</a>
+</nav>
 
-  <div id="contenedor-imagen">
-   <img src="img/Rulo.jpg" alt="Rulo el perrito">
-  </div>
 
-  <script src="script.js"></script>
+<section id="inicio">
+<h2>Inicio</h2>
+<p>Este sitio está dedicado a la promoción de artistas visuales, escénicos y musicales emergentes.</p>
+</section>
+
+
+<section id="galeria">
+<h2>Galería</h2>
+<img src="img/Rulo.jpg" alt="Obra 1" width="300">
+<img src="img/obra2.jpg" alt="Obra 2" width="300">
+<img src="img/obra3.jpg" alt="Obra 3" width="300">
+</section>
+
+
+<section id="contacto">
+<h2>Contacto</h2>
+<form>
+<label for="nombre">Nombre:</label><br>
+<input type="text" id="nombre" name="nombre"><br><br>
+<label for="mensaje">Mensaje:</label><br>
+<textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+<button type="submit">Enviar</button>
+</form>
+</section>
+
+
+<section id="agenda">
+<h2>Agenda de Eventos</h2>
+<ul>
+<li>10 de septiembre: Exposición colectiva en Centro Cultural</li>
+<li>17 de septiembre: Concierto de nuevos talentos</li>
+<li>24 de septiembre: Performance de arte urbano</li>
+</ul>
+</section>
+
+
+<footer>
+<p>&copy; 2025 Sitio "Artistas"</p>
+</footer>
 </body>
 </html>
